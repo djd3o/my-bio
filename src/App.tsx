@@ -13,7 +13,9 @@ export default function App() {
             className="h-40 w-40 rounded-full border-4 border-zinc-800 object-cover shadow-xl"
           />
 
-          <h1 className="mt-6 text-3xl font-bold text-white">DJD3O</h1>
+          <h1 className="mt-6 text-4xl font-bold tracking-tight text-white [font-family:'Helvetica']">
+            djD3o
+          </h1>
 
           <div className="mt-8 flex items-center justify-center gap-4">
             {links.map((link) => {

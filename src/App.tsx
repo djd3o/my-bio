@@ -14,10 +14,10 @@ export default function App() {
           />
 
           <h1 className="mt-6 text-4xl font-bold tracking-tight text-white [font-family:'Helvetica']">
-            djD3o
+            djÐ3ø
           </h1>
 
-          <div className="mt-8 flex items-center justify-center gap-4">
+          <div className="mt-8 flex w-full items-center justify-center gap-2 sm:gap-4">
             {links.map((link) => {
               const Icon = link.icon;
 
@@ -28,9 +28,19 @@ export default function App() {
                   target="_blank"
                   rel="noreferrer"
                   aria-label={link.label}
-                  className="rounded-full bg-zinc-900 p-3 text-zinc-400 transition hover:scale-110 hover:text-white"
+                  className="
+                    rounded-full
+                    bg-zinc-900
+                    p-2
+                    text-zinc-400
+                    transition-all
+                    duration-300
+                    hover:scale-110
+                    hover:text-white
+                    sm:p-3
+                  "
                 >
-                  <Icon size={24} />
+                  <Icon className="h-5 w-5 sm:h-6 sm:w-6" />
                 </a>
               );
             })}

@@ -6,7 +6,7 @@ export default function App() {
   return (
     <main className="flex min-h-screen items-center justify-center bg-black px-6 text-white">
       <Card className="w-full max-w-md rounded-3xl border-zinc-800 bg-zinc-950 shadow-2xl">
-        <CardContent className="flex flex-col items-center p-10">
+        <CardContent className="flex flex-col items-center p-6 sm:p-10">
           <img
             src={profileImage}
             alt="djd3o"
@@ -17,7 +17,7 @@ export default function App() {
             djÐ3ø
           </h1>
 
-          <div className="mt-8 flex w-full items-center justify-center gap-2 sm:gap-4">
+          <div className="mt-8 flex w-full items-center justify-center gap-2 px-4 sm:gap-4 sm:px-0">
             {links.map((link) => {
               const Icon = link.icon;
 

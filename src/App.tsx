@@ -1,4 +1,4 @@
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "./components/ui/card";
 import { links } from "./data/links";
 import profileImage from "./assets/f-3-bandcamp.jpg";
 

@@ -1,4 +1,4 @@
-// src/data/links.ts
+// src/data/socialLinks.ts
 
 import {
   FaInstagram,
@@ -10,21 +10,11 @@ import {
 
 import { SiTidal } from "react-icons/si";
 
-export const links = [
+export const socialLinks = [
   {
     label: "Instagram",
     url: "https://instagram.com/djd3o",
     icon: FaInstagram,
-  },
-  {
-    label: "TikTok",
-    url: "https://tiktok.com/@dj.d3o",
-    icon: FaTiktok,
-  },
-  {
-    label: "Bandcamp",
-    url: "http://djd3o.bandcamp.com",
-    icon: FaBandcamp,
   },
   {
     label: "Spotify",
@@ -40,5 +30,15 @@ export const links = [
     label: "SoundCloud",
     url: "http://soundcloud.com/djd3o",
     icon: FaSoundcloud,
+  },
+  {
+    label: "TikTok",
+    url: "https://tiktok.com/@dj.d3o",
+    icon: FaTiktok,
+  },
+  {
+    label: "Bandcamp",
+    url: "http://djd3o.bandcamp.com",
+    icon: FaBandcamp,
   },
 ];
